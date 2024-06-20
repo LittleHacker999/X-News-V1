@@ -21,22 +21,4 @@
               "size": "eco"  
           }  
       }  
-"env": {
-    "MongoDB": {
-      "description": "MongoDB DataBase URL",
-      "value": ""
-      "required": true
-    },
- {
-    "GLink": {
-      "description": "Ur Whatsapp Group Link",
-      "value": ""
-      "required": true
-    },
-   {
-    "JID": {
-      "description": "Ur Whatsapp Group Jid",
-      "value": ""
-      "required": true
-    },
 }
