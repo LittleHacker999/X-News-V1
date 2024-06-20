@@ -15,8 +15,8 @@ const request = require('@cypress/request');
   
   
          async function XAsena() { 
-             mongoose.connect(process.env.MongoDB;) 
-   .then(() => console.log('Connected!')); 
+             mongoose.connect('mongodb+srv://Jithula:<password>@cluster0.i9f4p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') 
+   .then(() => console.log('Connected Sucess!')); 
   
              const { state, saveCreds } = await useMultiFileAuthState(__dirname+'/session')
             const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
